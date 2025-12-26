@@ -1,0 +1,44 @@
+# Databricks_assignment
+
+
+# Question 1
+
+
+
+# Create 3 folders as source_to_bronze, bronze_to_silver, silver_to_gold.
+
+<img width="1913" height="597" alt="Screenshot 2025-12-26 235406" src="https://github.com/user-attachments/assets/345a5677-eb96-412e-8882-677e978f729f" />
+
+
+# 2. Create 4 notebooks in this respective order. 
+* 2 Notebooks named in source_to_bronze as utils (add all common functions in this notebook) and employee_source_to_bronze (driver notebook)
+* 1 Notebook in bronze to silver as employee_bronze_to_silver
+* 1 Notebook in silver to gold as employee_silver_to_gold
+
+#  2 Notebooks named in source_to_bronze as utils (add all common functions in this notebook) and employee_source_to_bronze (driver notebook)
+
+<img width="1917" height="742" alt="Screenshot 2025-12-26 235951" src="https://github.com/user-attachments/assets/27fd832b-05c7-4652-a7f5-9d19159d2dbb" />
+
+
+#   1 Notebook in bronze to silver as employee_bronze_to_silver
+
+<img width="1919" height="722" alt="Screenshot 2025-12-27 000056" src="https://github.com/user-attachments/assets/beb73d22-b5b8-4bcb-a19c-713a5af23093" />
+
+
+#  1 Notebook in silver to gold as employee_silver_to_gold
+
+
+<img width="1919" height="790" alt="Screenshot 2025-12-27 000206" src="https://github.com/user-attachments/assets/5e15a248-bfa6-4f5f-bffc-35b373601312" />
+
+
+# 3 . Read the 3 datasets as Dataframe in employee_source_to_bronze, call utils notebook in this notebook, and write to a location in DBFS, as /source_to_bronze/file_name.csv (employee, department_df, country_df) as CSV format
+<img width="1913" height="1060" alt="Screenshot 2025-12-27 005117" src="https://github.com/user-attachments/assets/e858a2b2-48a3-4a26-a417-6c1c5603e86a" />
+
+<img width="1811" height="879" alt="Screenshot 2025-12-27 005142" src="https://github.com/user-attachments/assets/22a84947-b69d-4621-aac2-7e021924dbbf" />
+
+<img width="1908" height="945" alt="Screenshot 2025-12-27 005159" src="https://github.com/user-attachments/assets/39039a58-90ac-4c33-8be1-c96f7bf83058" />
+
+<img width="1904" height="590" alt="Screenshot 2025-12-27 005214" src="https://github.com/user-attachments/assets/a6b00010-f162-4cfc-99e5-80050e223c49" />
+
+
+# 4. In employee_bronze_to_silver, call utils notebook in this notebook. Read the file located in DBFS location source_to_bronze with as data frame different read methods using custom schema.
