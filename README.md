@@ -42,3 +42,25 @@
 
 
 # 4. In employee_bronze_to_silver, call utils notebook in this notebook. Read the file located in DBFS location source_to_bronze with as data frame different read methods using custom schema.
+
+
+<img width="1919" height="1057" alt="Screenshot 2025-12-27 131151" src="https://github.com/user-attachments/assets/120aa89d-e454-4f79-a494-4b2e68a62b55" />
+<img width="1918" height="750" alt="Screenshot 2025-12-27 131211" src="https://github.com/user-attachments/assets/a6f70cec-ad7f-4fb6-ab68-8231e8875b98" />
+<img width="1919" height="660" alt="Screenshot 2025-12-27 131244" src="https://github.com/user-attachments/assets/fa702c08-6f9e-4053-8b28-af8f6cd8c7de" />
+
+
+# 5.convert the Camel case of the columns to the snake case using UDF. 
+<img width="1919" height="1073" alt="Screenshot 2025-12-27 132007" src="https://github.com/user-attachments/assets/5e388028-53ef-452f-962d-ea00a7df0d1e" />
+
+<img width="1919" height="761" alt="Screenshot 2025-12-27 132038" src="https://github.com/user-attachments/assets/189f61db-584d-4577-8b67-f73ae0f18de6" />
+
+# 6. Add the load_date column with the current date.
+
+<img width="1911" height="1075" alt="Screenshot 2025-12-27 132452" src="https://github.com/user-attachments/assets/425343d5-c356-47ab-ad2c-7c40cc52086f" />
+
+
+# 6.1 The primary key is EmployeeID, the Database name is Employee_info, Table name is dim_employee. 
+
+
+# 6.2 write the DF as a delta table to the location /silver/db_name/table_name. 
+
