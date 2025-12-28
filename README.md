@@ -59,8 +59,12 @@
 <img width="1911" height="1075" alt="Screenshot 2025-12-27 132452" src="https://github.com/user-attachments/assets/425343d5-c356-47ab-ad2c-7c40cc52086f" />
 
 
-# 6.1 The primary key is EmployeeID, the Database name is Employee_info, Table name is dim_employee. 
+# The primary key is EmployeeID, the Database name is Employee_info, Table name is dim_employee. 
+ # write the DF as a delta table to the location /silver/db_name/table_name. 
 
 
-# 6.2 write the DF as a delta table to the location /silver/db_name/table_name. 
+<img width="1275" height="562" alt="Screenshot 2025-12-28 164234" src="https://github.com/user-attachments/assets/29db5e58-15c8-4347-a4a7-0abad90ac25f" />
+<img width="1014" height="435" alt="Screenshot 2025-12-28 164249" src="https://github.com/user-attachments/assets/19c4906e-ceed-437b-a78a-2f5a71ad2965" />
+
+ write the DF as a delta table to the location /silver/db_name/table_name. 
 
