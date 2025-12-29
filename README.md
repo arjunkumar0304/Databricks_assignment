@@ -68,3 +68,27 @@
 
  write the DF as a delta table to the location /silver/db_name/table_name. 
 
+# 8. Gold Layer Requirements
+# Salary of each department (descending)
+<img width="1274" height="560" alt="Screenshot 2025-12-29 231238" src="https://github.com/user-attachments/assets/e5024004-dbb1-469a-bd5d-c16c67af3292" />
+
+ 
+ # Employee count per department per country
+<img width="793" height="544" alt="Screenshot 2025-12-29 231255" src="https://github.com/user-attachments/assets/197966c6-b09c-47b2-ab1e-5ca9544648ae" />
+
+
+ # Map of departments ↔ countries
+<img width="1104" height="507" alt="Screenshot 2025-12-29 231308" src="https://github.com/user-attachments/assets/bff55ccc-98a1-4ead-81b8-ea288e323cf2" />
+
+
+ # Average age by department
+<img width="946" height="492" alt="Screenshot 2025-12-29 231320" src="https://github.com/user-attachments/assets/7b325456-14e7-4250-bb69-1d366830215e" />
+
+
+ # Add at_load_date
+ <img width="1112" height="581" alt="Screenshot 2025-12-29 231340" src="https://github.com/user-attachments/assets/f1fc32b9-284f-47ca-8e72-aa8af9ce612c" />
+
+
+# Write GOLD table to Delta
+ <img width="866" height="251" alt="Screenshot 2025-12-29 231438" src="https://github.com/user-attachments/assets/b0464de6-b6c6-46ce-80ad-c37ec050451d" />
+
